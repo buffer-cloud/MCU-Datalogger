@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e37b0ca1-9fe1-4575-b9a4-8036a316ab3d")
+	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2026-09-07")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
