@@ -2399,7 +2399,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 159.499 24.0495 90)
 			(effects
 				(font
@@ -2432,6 +2432,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 159.499 28.6267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2532,7 +2540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100nF"
 			(at 268.0699 46.849 0)
 			(effects
 				(font
@@ -2568,6 +2576,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 265.0615 46.4681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50ff7290-15d0-4359-a762-45722101f43d")
 		)
@@ -2601,7 +2617,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 147.0099 44.3695 90)
 			(effects
 				(font
@@ -2634,6 +2650,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 147.0099 47.3603 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2734,7 +2758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 135.8663 49.4665 0)
 			(effects
 				(font
@@ -2770,6 +2794,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 131.8446 48.1966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b57924c-a6a2-4fc0-9477-adf819fb9110")
 		)
@@ -2787,7 +2819,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.7125 62.2282 0)
+		(at 145.8023 63.2336 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2795,7 +2827,7 @@
 		(dnp no)
 		(uuid "421d4d00-1d4a-4292-add6-3831ad2ff40f")
 		(property "Reference" "C2"
-			(at 150.9541 61.0944 0)
+			(at 150.0439 62.0998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,8 +2835,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 150.9541 63.6344 0)
+		(property "Value" "22pF"
+			(at 150.0439 64.6398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.6777 66.0382 0)
+			(at 146.7675 67.0436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.7125 62.2282 0)
+			(at 145.8023 63.2336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,12 +2863,20 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.7125 62.2282 0)
+			(at 145.8023 63.2336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 145.8023 63.2336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3120,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 270.3697 74.7977 0)
 			(effects
 				(font
@@ -3154,6 +3194,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 267.4403 73.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3278,7 +3326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 109.4175 147.9606 0)
 			(effects
 				(font
@@ -3312,6 +3360,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 107.5537 146.6907 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3348,7 +3404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 117.0375 148.0037 0)
 			(effects
 				(font
@@ -3382,6 +3438,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 114.8951 146.7338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3418,7 +3482,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16Mhz"
 			(at 163.5019 64.3902 90)
 			(effects
 				(font
@@ -3452,6 +3516,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 159.5547 63.1203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3631,7 +3703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 150.26 76.2846 0)
 			(effects
 				(font
@@ -3665,6 +3737,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 147.3073 75.0147 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3701,7 +3781,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768 Khz"
 			(at 24.13 70.6347 90)
 			(effects
 				(font
@@ -3735,6 +3815,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 20.2792 69.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3771,7 +3859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 122.7077 50.1169 0)
 			(effects
 				(font
@@ -3807,6 +3895,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 120.2476 48.847 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01f31639-28b9-4152-b14e-87dfaff77766")
 		)
@@ -3840,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 160.6884 74.8495 90)
 			(effects
 				(font
@@ -3873,6 +3969,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 160.6884 77.9883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4298,7 +4402,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.4648 48.0331 0)
+		(at 113.057 49.0234 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4307,7 +4411,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb4e0955-780c-4326-b217-428b8bff3f12")
 		(property "Reference" "R2"
-			(at 116.173 46.763 0)
+			(at 115.7652 47.7533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,8 +4419,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 116.173 49.303 0)
+		(property "Value" "10K"
+			(at 115.7652 50.2933 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.6868 48.0331 90)
+			(at 111.279 49.0234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.4648 48.0331 0)
+			(at 113.057 49.0234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,12 +4447,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.4648 48.0331 0)
+			(at 113.057 49.0234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 113.057 49.0234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
