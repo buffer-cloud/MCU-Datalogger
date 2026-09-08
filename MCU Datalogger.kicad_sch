@@ -2407,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.689 29.5919 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 266.0267 50.2781 0)
 			(effects
 				(font
@@ -2625,7 +2625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 147.0099 49.1383 90)
 			(effects
 				(font
@@ -2767,7 +2767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 132.8098 52.0066 0)
 			(effects
 				(font
@@ -2844,7 +2844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 146.7675 67.0436 0)
 			(effects
 				(font
@@ -2965,183 +2965,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DS1337S_:DS1337S_")
-		(at 85.7539 56.281 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ada66bc-05cc-4383-99e2-858a3cbccec9")
-		(property "Reference" "U4"
-			(at 85.7539 35.8014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS1337S_"
-			(at 85.7539 38.3414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "I²C Serial Real-Time Clock"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Maxim"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=snap"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "DS1337S+"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105732&manufacturer=Analog Devices&part_name=DS1337S+&search_term=ds1337s"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=eda"
-			(at 85.7539 56.281 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffdc9a12-309d-44fe-be7a-3bd4d058ccb3")
-		)
-		(pin "5"
-			(uuid "4d927efd-ab2d-437d-bec5-bd00fcf11759")
-		)
-		(pin "2"
-			(uuid "ff605cfb-784c-464e-b4ff-c1b3d4780409")
-		)
-		(pin "3"
-			(uuid "1094144b-d4cf-44a5-b687-4b90df1966d2")
-		)
-		(pin "8"
-			(uuid "20c0a89f-19e6-4b31-9883-cc2d1af12582")
-		)
-		(pin "6"
-			(uuid "3f953fc0-d3dc-4c4f-a880-21c4d6173633")
-		)
-		(pin "7"
-			(uuid "a0218337-4f03-40e4-a7b6-47bca64edc38")
-		)
-		(pin "4"
-			(uuid "5ce5e6de-d7fe-48aa-9d4c-fff4bbc46823")
-		)
-		(instances
-			(project ""
-				(path "/e37b0ca1-9fe1-4575-b9a4-8036a316ab3d"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 267.4403 73.5278 0)
 		(unit 1)
@@ -3169,7 +2992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 265.6623 73.5278 90)
 			(effects
 				(font
@@ -3335,7 +3158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 105.7757 146.6907 90)
 			(effects
 				(font
@@ -3413,7 +3236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 113.1171 146.7338 90)
 			(effects
 				(font
@@ -3569,7 +3392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 267.1986 60.1467 0)
 			(effects
 				(font
@@ -3712,7 +3535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.2725 78.8247 0)
 			(effects
 				(font
@@ -3868,7 +3691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 118.4696 48.847 90)
 			(effects
 				(font
@@ -3944,7 +3767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.6884 79.7663 90)
 			(effects
 				(font
@@ -4020,7 +3843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 161.3388 41.7105 0)
 			(effects
 				(font
@@ -4428,7 +4251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.279 49.0234 90)
 			(effects
 				(font
